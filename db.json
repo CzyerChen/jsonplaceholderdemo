@@ -4,11 +4,22 @@
     { "id": 2, "title": "Post 2" },
     { "id": 3, "title": "Post 3" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "userinfo": [
+    {"id":1,"userName":"string","age":11,"mail":"string@demo.com","sex":0,"active":1},
+    {"id":2,"userName":"string","age":12,"mail":"string@demo.com","sex":1,"active":0},
+    {"id":3,"userName":"string","age":13,"mail":"string@demo.com","sex":2,"active":1}
+  ],
+  "orderinfo": [
+    {"id":1,"orderId":"string","userId":1,"productId":1,"createTime":"2023-10-01 00:00:00","price":1.01,"deleted":1},
+    {"id":2,"orderId":"string","userId":2,"productId":2,"createTime":"2023-10-02 00:00:00","price":100.2,"deleted":0},
+    {"id":3,"orderId":"string","userId":1,"productId":1,"createTime":"2023-10-03 00:00:00","price":33.5,"deleted":1}
+  ],
+  "productinfo": [
+    {"id":1,"productName":"prod1","createTime":"2023-10-01 00:00:00","price":1.01,"deleted":1},
+    {"id":2,"productName":"prod2","createTime":"2023-10-02 00:00:00","price":100.2,"deleted":0},
+    {"id":3,"productName":"prod3","createTime":"2023-10-03 00:00:00","price":33.5,"deleted":1}
   ],
   "profile": {
-    "name": "typicode"
+    "name": "clairechen, have a try."
   }
 }
