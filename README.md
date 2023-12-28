@@ -176,6 +176,37 @@ like default `posts`, you can call `GET https://my-json-server.typicode.com/Czye
 
 Awesome! you can mock data and write into `db.json`.
 
+like the demo in `https://github.com/CzyerChen/jsonplaceholderdemo`, call `https://my-json-server.typicode.com/CzyerChen/jsonplaceholderdemo/userinfo` and return the data
+
+```json
+[
+  {
+    "id": 1,
+    "userName": "string",
+    "age": 11,
+    "mail": "string@demo.com",
+    "sex": 0,
+    "active": 1
+  },
+  {
+    "id": 2,
+    "userName": "string",
+    "age": 12,
+    "mail": "string@demo.com",
+    "sex": 1,
+    "active": 0
+  },
+  {
+    "id": 3,
+    "userName": "string",
+    "age": 13,
+    "mail": "string@demo.com",
+    "sex": 2,
+    "active": 1
+  }
+]
+```
+
 ### 扩展的可能？
 
 增加简单的认证接口？比如jwt/oauth2?
